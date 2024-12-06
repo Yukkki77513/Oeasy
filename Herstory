@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的网页</title>
+    <title>好东西的好与不好</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
+            background-color: #f7f9fc; /* 背景颜色为淡灰蓝色 */
             color: #333;
+            line-height: 1.6;
+            margin: 20px;
         }
+
         h1 {
-            color: #8e44ad;
+            color: #d3a4c4; /* 设置标题为灰粉色 */
+            text-align: center; /* 标题居中 */
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
         }
     </style>
 </head>
 <body>
-    <h1>欢迎来到我的网页！</h1>
-    <p>这是一个GitHub页面，展示我的小项目。</p>
+
+    <h1>《好东西》的好与不好</h1>
+    <p>《好东西》，是那种可能意识到自己的问题但依然要那么办，因为那么办更爽的电影。</p>
+    
 </body>
 </html>
+
