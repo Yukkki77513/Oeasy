@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><abbr title="今年最值得看的一部电影">好东西的好与不好</abbr></title>
+    <!-- 修改 title 标签 -->
+    <title>好东西的好与不好</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,11 +32,21 @@
             font-size: 0.8em;
             color: #888;
         }
+
+        abbr {
+            cursor: pointer;
+            text-decoration: underline dotted;
+            color: #d3a4c4;
+        }
+
+        abbr[title] {
+            text-decoration: underline dotted;
+        }
     </style>
 </head>
 <body>
     <h1>
-        <ruby>《好东西》<rt>hǎo dōng xī</rt></ruby>的好与不好
+        <ruby>《<abbr title="今年最值得看的一部电影">好东西</abbr>》<rt>hǎo dōng xī</rt></ruby>的好与不好
     </h1>
     <p>《好东西》，是那种可能意识到自己的问题但依然要那么办，因为那么办更爽的电影。</p>
 
