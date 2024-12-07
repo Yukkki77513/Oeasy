@@ -89,6 +89,20 @@
         .link:hover {
             text-decoration: underline;  /* 鼠标悬停时显示下划线 */
         }
+        .centered {
+            text-align: center;
+        }
+        /* 设置嵌入视频的样式 */
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            max-width: 800px;  /* 最大宽度限制为800px */
+            height: 450px;    /* 高度为450px */
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -190,7 +204,9 @@
     <h3>
         来看看视频吧
     </h3>
-    <p><a href="https://www.bilibili.com/video/BV1ZjByYWENU/?spm_id_from=333.337.search-card.all.click" class="link" target="_blank">点击这里观看B站视频</a></p>
+    <div class="video-container">
+        <iframe src="https://www.bilibili.com/video/BV1ZjByYWENU/?spm_id_from=333.337.search-card.all.click" allowfullscreen></iframe>
+    </div>
     <footer>
         作者——梅雪风
         编辑——曾鸣   顾问—王天挺
